@@ -136,6 +136,10 @@ p {
     font-weight: 500; /* Assuming Medium for p as well */
 }
 
+.hidden {
+    display: none;
+}
+
 
 /* Add classes or elements for Body M and Body S with the appropriate sizes and line heights */
 
