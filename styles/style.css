@@ -293,8 +293,9 @@ p {
   }
 
   .features-box {
-    flex-basis: calc((auto - 30px * 2) / 3); /* Each box will take up a third of the container width, minus the total padding */
+    flex-basis: calc((33.33% - 30px * 2) / 3); /* Each box will take up a third of the container width, minus the total padding */
     width: 350px;
+    min-width: 300px;
     height: 322px;
     border-radius: 15px;
     background: var(--FFFFFF, #FFF);
